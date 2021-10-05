@@ -3,7 +3,7 @@ package com.example.jsonapp
 import com.google.gson.annotations.SerializedName
 
 class CurrencyDetails {
-     @SerializedName("date")
+    @SerializedName("date")
     var date: String? = null
 
     @SerializedName("eur")
@@ -11,15 +11,21 @@ class CurrencyDetails {
 
     class Datum {
         @SerializedName("ada")
-        var ada: Double? = null
+        var ada: String? = null
 
         @SerializedName("bam")
-        var bam: Double? = null
+        var bam: String? = null
 
         @SerializedName("cad")
-        var cad: Double? = null
+        var cad: String? = null
 
         @SerializedName("djf")
-        var djf: Double? = null
+        var djf: String? = null
+
+        @SerializedName("egp")
+        var egp: String? = null
+
+        @SerializedName("fjd")
+        var fjd: String? = null
     }
 }
